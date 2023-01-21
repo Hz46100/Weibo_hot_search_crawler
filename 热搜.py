@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-作者：zzqzzq
+作者：nuomi
 日期：2023年01月18日
 """
 import urllib
@@ -41,7 +41,7 @@ else:
     # 调用pprint来使输出变得漂亮
     pprint(list)
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 
 data = list
 app = Flask(__name__)  # 创建一个服务，赋值给APP
